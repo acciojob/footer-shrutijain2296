@@ -28,7 +28,9 @@
     font-size: 35px;
     font-weight: 400;
 }
-
+.media-icons{
+	display: flex;
+}
 .media-icons a{ 
     display: inline-block;
     height: 40px;
