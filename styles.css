@@ -29,7 +29,7 @@
     font-weight: 400;
 }
 
-.social-links a{ 
+.media-icons a{ 
     display: inline-block;
     height: 40px;
     width: 40px;
@@ -40,21 +40,21 @@
     line-height: 40px;
     border-radius: 50%;
 }
-.social-links .instagram{
+.media-icons .instagram{
     background-color: rgb(225, 51, 80);
 }
-.social-links .twitter{
+.media-icons .twitter{
     background-color: rgb(36, 159, 207);
 }
-.social-links .facebook{
+.media-icons .facebook{
     background-color: rgb(85, 85, 192);
 }
 
-.social-links .linkedin{
+.media-icons .linkedin{
     background-color: rgb(14, 129, 174);
 }
 
-.social-links .youtube{
+.media-icons .youtube{
     background-color: red;
 }
 
