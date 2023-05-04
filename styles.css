@@ -1,1 +1,124 @@
 /* your code here */
+
+  @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@1,1000&family=Poppins:wght@100;200;300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+.footer{
+    background-color: black;
+    color: white;
+    padding: 70px;
+}
+
+.company-media-logo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -10px;
+}
+
+.company-media-logo h4{
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.social-links a{ 
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: blue;
+    color: white;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+}
+.social-links .instagram{
+    background-color: rgb(225, 51, 80);
+}
+.social-links .twitter{
+    background-color: rgb(36, 159, 207);
+}
+.social-links .facebook{
+    background-color: rgb(85, 85, 192);
+}
+
+.social-links .linkedin{
+    background-color: rgb(14, 129, 174);
+}
+
+.social-links .youtube{
+    background-color: red;
+}
+
+.row{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+}
+
+.footer-col{
+    width: 25%;
+    padding: 50px 15px;
+}
+.footer-col h4{
+    font-size: 22px;
+    font-weight: 500;
+    position: relative;
+    margin-bottom: 30px;
+    
+}
+
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: white;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li :not(:last-child){
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #bbbb;
+}
+.footer-col .contact li{
+    color: #bbbb;
+    font-size: 18px;
+}
+
+ul{
+    list-style: none;
+}
+
+
+/* responsive */
+@media(max-width: 767px){
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    
+}
+
+@media(max-width: 574px){
+    .footer-col{
+        width: 100%;
+    }
+    
+}
